@@ -20,10 +20,12 @@ Spring Boot, Spring JPA, Hibernate, PostgreSQL, Liquibase (система упр
 - _11_ - Добавить локализацию минимум на двух языках для шаблонов писем (mails) и стартовой страницы index.html. _(переключение языка - "?lang=ru" / ?lang=us)_
 
 ```
+  Рабочая БД
   url: jdbc:postgresql://localhost:5432/jira
   username: jira
   password: JiraRush
   
+  Тестовая БД
   url: jdbc:postgresql://localhost:5433/jira-test
   username: jira
   password: JiraRush
