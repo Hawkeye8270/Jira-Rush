@@ -21,7 +21,7 @@ Spring Boot, Spring JPA, Hibernate, PostgreSQL, Liquibase (система упр
 
 ## Для запуска
 ```
-  в терминале набрать "docker-compose up"
+  в терминале IDEA набрать "docker-compose up"
   
   Рабочая БД
   url: jdbc:postgresql://localhost:5432/jira
